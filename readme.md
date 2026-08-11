@@ -4,6 +4,18 @@ A modular C++17 backtesting engine for replaying historical candle data through 
 
 The project demonstrates an event-driven design with clear boundaries between market-data ingestion, strategy logic, order execution, portfolio state, and reporting.
 
+## Project Status
+
+This repository is the first iteration of an event-driven backtesting engine. It is an intentionally small, research and learning-oriented foundation rather than a finished backtesting platform or live-trading system.
+
+The goal is to keep extending the engine over time with additional strategies, execution models, portfolio capabilities, data sources, performance metrics, and tests while preserving the separation between its core components.
+
+## Inspiration
+
+The event-driven design is inspired in part by the Interactive Brokers Campus article [A Practical Breakdown of Vector-Based vs. Event-Based Backtesting](https://www.interactivebrokers.com/campus/ibkr-quant-news/a-practical-breakdown-of-vector-based-vs-event-based-backtesting/).
+
+That article's discussion of sequentially processing market-data events, orders, fills, and portfolio updates helped shape this project's architecture. This repository is an independent implementation intended to provide a foundation that can be studied and extended.
+
 ## Overview
 
 ```text
