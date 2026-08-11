@@ -436,7 +436,5 @@ This is a research and portfolio project rather than a live-trading system. The 
 - Cash balance and buying power are not modeled separately from portfolio equity.
 - Limit and stop trigger rules are simplified.
 - Slippage, latency, partial fills, and exchange connectivity are not modeled.
-- The default portfolio tracks one net position rather than a complete trade ledger.
-- The CSV parser expects a Binance-style schema and does not implement full CSV quoting rules.
 
 These constraints keep the implementation small and make the core event-driven architecture easy to study and extend.
