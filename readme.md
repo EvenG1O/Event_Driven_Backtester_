@@ -2,7 +2,6 @@
 
 A modular C++17 backtesting engine for replaying historical candle data through trading strategies, simulated execution, portfolio accounting, and performance reporting.
 
-The project demonstrates an event-driven design with clear boundaries between market-data ingestion, strategy logic, order execution, portfolio state, and reporting.
 
 ## Project Status
 
